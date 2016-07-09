@@ -1,0 +1,64 @@
+***********Columns from final_births table:
+
+Type of care :
+		License category
+		Principal service type
+		Acute psychiatric patients by age category
+		Palliative care program
+		ambulatory Surgical program
+		Alternate birthing center information
+
+Type of other services:
+		Services available on Premises
+		Emergency department services
+		Surgical services 
+
+Old/new hospital:
+		License start date
+
+Big hospital or not:
+		InPatient bed utilization(only total sum of beds)
+		Diagnostic and Therapeutic equipment during the report period
+
+The likelihood :
+		Newborn nursery information
+		Live Births
+
+***********Tasks to do:
+
+1. Match hospital names in births and final_births to get OSPHD_ID 
+2. Merge services availability - combine to form yes/no for each service
+3.
+
+
+********Cleaning data (Assumptions):
+
+1. License category 
+	General Acute Care - 1
+	Acute Psychiatric  - 2
+	Psychiatric Health Facility - 3
+	Chemical dependency Recovery Hospital - 4
+
+2. Principal Service Type
+	General medical/surgical - 1
+	Long-Term Care - 2
+	Psychiatric - 3
+	Chemical Dependency - 4
+	Pediatric - 5
+	Physical Rehabilitation - 6
+	Developmentally disabled - 7
+	Other - 8
+	Missing data - 0
+
+3. Palliative care program
+	Missing data - No
+
+4. Equipment Greater than 500k 
+	Missing data - No
+
+
+
+
+
+
+
