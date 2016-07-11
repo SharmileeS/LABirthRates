@@ -1,0 +1,13 @@
+Possible data choice of Henry, Sharmilee & Xiaoxiao:
+
+
+HPL_Births10_14_SMCO
+* HPL_Birth_Age_Masked
+
+HPL_Injuries10_14_SMCO
+* Pivot + Birth_age_masked
+
+Hosp14_until_data_FINAL-babies
+* Section 1-4 (optimal)
+	*lisence statust
+* Section 5-6 
