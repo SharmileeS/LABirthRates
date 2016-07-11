@@ -18,8 +18,8 @@ data=pd.get_dummies(data)
 #Select which features are most important.
 estimator = SVC(kernel="linear")
 selector = RFECV(estimator, step=1, cv=10)
-y=data['F19']
-data.drop('F19', axis=1, inplace=True)
+y=data['label']
+data.drop('label', axis=1, inplace=True)
 selector = selector.fit(data, y)
 
 #print which features have been selected
